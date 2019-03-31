@@ -1,0 +1,15 @@
+{
+  "name": "fhs-defactoring-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/{*,**/*,**/**/*,**/**/**/*}.spec.js --recursive --reporter spec"
+  },
+  "author": "Thomas Mayrhofer <thomas@mayrhofer.at>",
+  "license": "ISC",
+  "dependencies": {
+    "hamjest": "^3.2.3",
+    "mocha": "^6.0.2"
+  }
+}
