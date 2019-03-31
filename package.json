@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/{*,**/*,**/**/*,**/**/**/*}.spec.js --recursive --reporter spec"
+    "test": "mocha src/{*,**/*,**/**/*,**/**/**/*}.spec.js --recursive --reporter spec",
+    "lint": "semistandard"
   },
   "author": "Thomas Mayrhofer <thomas@mayrhofer.at>",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "hamjest": "^3.2.3",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "semistandard": "^13.0.1"
   }
 }
